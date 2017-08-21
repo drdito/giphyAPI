@@ -1,0 +1,7 @@
+API Key= 4f5aa4196409493995940a627c425a76
+
+https://api.giphy.com/v1/gifs/search?api_key=4f5aa4196409493995940a627c425a76&q=baseball&limit=10&offset=0&lang=en
+
+var searchTerm
+
+var QueryURL = "https://api.giphy.com/v1/gifs/search?api_key=4f5aa4196409493995940a627c425a76&q=" + searchTerm +"&limit=10&offset=0&lang=en";
