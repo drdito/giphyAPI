@@ -1,5 +1,11 @@
+body {
+  background-image: url("../images/ticks.png");
+  font-family: 'Cinzel', serif;
+}
+
 #wrapper {
   margin: auto;
+  
 }
 
 .searches {
@@ -11,7 +17,6 @@
 }
 
 #new-term {
-  float: right;
   margin: 10px;
 }
 
@@ -20,4 +25,16 @@
   border-radius: 4px;
   border-color: #1f776c; 
   color: #fff;
+}
+
+.imageSearch {
+  margin: 15px;
+  cursor: pointer;
+}
+
+
+.ratingSpan {
+  position: relative;
+  left: -209px;
+  top: 6px;
 }
